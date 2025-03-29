@@ -4,5 +4,5 @@ services:
   api:
     build: .
     ports:
-      - "80:3000"
+      - "3000:3000"  # internal:external
     restart: always
